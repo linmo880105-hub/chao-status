@@ -1,13 +1,13 @@
 {
   "schema": "chao-status-public-v1",
-  "generated_at": "2026-09-19T16:12:45.657079+00:00",
+  "generated_at": "2026-09-19T16:13:50.521840+00:00",
   "system_health": "HEALTHY",
   "error_count": 0,
   "meme": {
     "paper_closed": 484,
     "p4_available": 148,
     "p4_target": 150,
-    "e2_future": 921,
+    "e2_future": 922,
     "e2_qualified": 263,
     "e2_available": 254,
     "e2_first_target": 30,
@@ -182,12 +182,12 @@
   },
   "e2_v2_forward": {
     "rule": "ACTIVITY_CONTINUATION_V2",
-    "future": 576,
-    "qualified": 85,
-    "available": 83,
+    "future": 581,
+    "qualified": 86,
+    "available": 84,
     "target": 30,
     "mapping_fail": 1,
-    "causal_fail": 22,
+    "causal_fail": 23,
     "returns_blinded": true,
     "real_money_authorized": false
   }
