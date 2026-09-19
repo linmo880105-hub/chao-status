@@ -1,8 +1,8 @@
 {
   "schema": "chao-e2-v2-forward-status-v1",
-  "generated_at_utc": "2026-09-19T11:02:20.048511+00:00",
+  "generated_at_utc": "2026-09-19T11:07:21.795520+00:00",
   "rule": "ACTIVITY_CONTINUATION_V2",
-  "future_t20_events": 275,
+  "future_t20_events": 281,
   "qualified": 33,
   "t26_available": 31,
   "target": 30,
