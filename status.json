@@ -1,0 +1,58 @@
+{
+  "schema": "chao-status-public-v1",
+  "generated_at": "2026-09-19T03:33:22.867728+00:00",
+  "system_health": "HEALTHY",
+  "error_count": 0,
+  "meme": {
+    "paper_closed": 246,
+    "p4_available": 17,
+    "p4_target": 150,
+    "e2_future": 169,
+    "e2_qualified": 48,
+    "e2_available": 47,
+    "e2_first_target": 30,
+    "returns_blinded": true
+  },
+  "mainstream": {
+    "symbols": {
+      "BTCUSDT": {
+        "h4": "BULLISH",
+        "h1": "LONG",
+        "phase": "RETEST_FAILED",
+        "side": "LONG",
+        "level": 81370.57
+      },
+      "ETHUSDT": {
+        "h4": "MIXED",
+        "h1": "LONG",
+        "phase": "RETEST_EXPIRED",
+        "side": "LONG",
+        "level": 2610.0
+      },
+      "SOLUSDT": {
+        "h4": "BULLISH",
+        "h1": "LONG",
+        "phase": "TRIGGER_EXPIRED",
+        "side": "LONG",
+        "level": 113.48
+      },
+      "BNBUSDT": {
+        "h4": "BULLISH",
+        "h1": "LONG",
+        "phase": "RETEST_EXPIRED",
+        "side": "LONG",
+        "level": 761.42
+      }
+    },
+    "total_samples": 7,
+    "complete_samples": 7,
+    "tracking_samples": 0,
+    "target": 20
+  },
+  "safety": {
+    "read_only": true,
+    "trading_enabled": false,
+    "secrets_exposed": false,
+    "raw_logs_exposed": false
+  }
+}
