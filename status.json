@@ -1,14 +1,14 @@
 {
   "schema": "chao-status-public-v1",
-  "generated_at": "2026-09-19T06:01:48.493034+00:00",
+  "generated_at": "2026-09-19T06:02:50.441560+00:00",
   "system_health": "HEALTHY",
   "error_count": 0,
   "meme": {
     "paper_closed": 286,
     "p4_available": 38,
     "p4_target": 150,
-    "e2_future": 318,
-    "e2_qualified": 92,
+    "e2_future": 319,
+    "e2_qualified": 93,
     "e2_available": 90,
     "e2_first_target": 30,
     "returns_blinded": true
@@ -25,16 +25,16 @@
       "ETHUSDT": {
         "h4": "BULLISH",
         "h1": "LONG",
-        "phase": "RETEST_EXPIRED",
+        "phase": "WAITING_RETEST",
         "side": "LONG",
-        "level": 2610.0
+        "level": 2627.68
       },
       "SOLUSDT": {
         "h4": "BULLISH",
-        "h1": "LONG",
-        "phase": "TRIGGER_EXPIRED",
-        "side": "LONG",
-        "level": 113.48
+        "h1": "SHORT",
+        "phase": "WAITING_RETEST",
+        "side": "SHORT",
+        "level": 112.0
       },
       "BNBUSDT": {
         "h4": "BULLISH",
