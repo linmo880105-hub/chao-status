@@ -1,6 +1,6 @@
 {
   "schema": "chao-status-public-v1",
-  "generated_at": "2026-09-19T06:02:50.441560+00:00",
+  "generated_at": "2026-09-19T06:03:01.477700+00:00",
   "system_health": "HEALTHY",
   "error_count": 0,
   "meme": {
@@ -54,5 +54,130 @@
     "trading_enabled": false,
     "secrets_exposed": false,
     "raw_logs_exposed": false
+  },
+  "e2_confirmation60": {
+    "schema": "chao-e2-confirmation60-v1",
+    "created_at_utc": "2026-09-19T06:03:01.211213+00:00",
+    "cohort": {
+      "first30_n": 30,
+      "confirmation31_60_n": 30,
+      "combined60_n": 60,
+      "cutoff_utc": "2026-09-19T04:26:36.000330+00:00"
+    },
+    "audit": {
+      "mapping_fail_total_seen": 0,
+      "causal_fail_total_seen": 2,
+      "duplicate_events": 0,
+      "same_window_all_t26_available": 213,
+      "same_window_r123_t26_available": 24
+    },
+    "results": {
+      "FIRST30": {
+        "n": 30,
+        "mean_pct": -3.2740113333333323,
+        "median_pct": -3.7404249999999974,
+        "win_rate_pct": 26.666666666666668,
+        "trim10_mean_pct": -4.051958333333332,
+        "p25_pct": -17.305100000000007,
+        "p75_pct": 4.162002500000009,
+        "min_pct": -53.31125999999999,
+        "max_pct": 57.25935,
+        "right_tail": {
+          "mean_minus_median_pct": 0.46641366666666517,
+          "mean_without_best1_pct": -5.361368620689654,
+          "top10_positive_contribution_pct": 61.789355882340246
+        }
+      },
+      "CONFIRM31_60": {
+        "n": 30,
+        "mean_pct": 7.116844,
+        "median_pct": -2.308184999999996,
+        "win_rate_pct": 43.333333333333336,
+        "trim10_mean_pct": -2.323952083333333,
+        "p25_pct": -25.734330000000007,
+        "p75_pct": 9.7866825,
+        "min_pct": -68.19896,
+        "max_pct": 221.47505999999998,
+        "right_tail": {
+          "mean_minus_median_pct": 9.425028999999997,
+          "mean_without_best1_pct": -0.27481862068965457,
+          "top10_positive_contribution_pct": 72.53339165700473
+        }
+      },
+      "COMBINED60": {
+        "n": 60,
+        "mean_pct": 1.921416333333334,
+        "median_pct": -3.132665000000001,
+        "win_rate_pct": 35.0,
+        "trim10_mean_pct": -3.629590416666666,
+        "p25_pct": -17.986800000000002,
+        "p75_pct": 9.159067500000006,
+        "min_pct": -68.19896,
+        "max_pct": 221.47505999999998,
+        "right_tail": {
+          "mean_minus_median_pct": 5.054081333333335,
+          "mean_without_best1_pct": -1.7998318644067788,
+          "top10_positive_contribution_pct": 72.53379636786428
+        }
+      },
+      "R123_same_window": {
+        "n": 24,
+        "mean_pct": 8.217012500000001,
+        "median_pct": -0.7392300000000018,
+        "win_rate_pct": 37.5,
+        "trim10_mean_pct": 1.9736595,
+        "p25_pct": -3.891427499999997,
+        "p75_pct": 10.478755000000007,
+        "min_pct": -44.895779999999995,
+        "max_pct": 160.96183000000002,
+        "right_tail": {
+          "mean_minus_median_pct": 8.956242500000002,
+          "mean_without_best1_pct": 1.5759334782608696,
+          "top10_positive_contribution_pct": 79.6266417936684
+        }
+      },
+      "ALL_same_window": {
+        "n": 213,
+        "mean_pct": -2.8413800938967135,
+        "median_pct": -2.7281,
+        "win_rate_pct": 11.737089201877934,
+        "trim10_mean_pct": -3.5941847368421054,
+        "p25_pct": -3.199209999999997,
+        "p75_pct": -2.7227299999999954,
+        "min_pct": -68.19896,
+        "max_pct": 221.47505999999998,
+        "right_tail": {
+          "mean_minus_median_pct": -0.11328009389671356,
+          "mean_without_best1_pct": -3.899476509433962,
+          "top10_positive_contribution_pct": 98.99894643045096
+        }
+      },
+      "comparison": {
+        "confirm31_60_minus_first30": {
+          "mean_pct": 10.390855333333333,
+          "median_pct": 1.4322400000000015,
+          "win_rate_pp": 16.666666666666668,
+          "trim10_mean_pct": 1.7280062499999995
+        },
+        "confirm31_60_minus_all": {
+          "mean_pct": 9.958224093896714,
+          "median_pct": 0.41991500000000404,
+          "win_rate_pp": 31.5962441314554,
+          "trim10_mean_pct": 1.2702326535087725
+        },
+        "confirm31_60_minus_r123": {
+          "mean_pct": -1.1001685000000005,
+          "median_pct": -1.568954999999994,
+          "win_rate_pp": 5.833333333333336,
+          "trim10_mean_pct": -4.297611583333333
+        }
+      }
+    },
+    "safety": {
+      "outer_holdout_read": false,
+      "samples_after_60_unblinded": false,
+      "formal_trading_rules_modified": false,
+      "real_money_authorized": false
+    }
   }
 }
