@@ -1,13 +1,13 @@
 {
   "schema": "chao-status-public-v1",
-  "generated_at": "2026-09-19T21:02:35.777247+00:00",
+  "generated_at": "2026-09-19T21:03:40.656177+00:00",
   "system_health": "HEALTHY",
   "error_count": 0,
   "meme": {
-    "paper_closed": 572,
+    "paper_closed": 573,
     "p4_available": 240,
     "p4_target": 150,
-    "e2_future": 1210,
+    "e2_future": 1212,
     "e2_qualified": 327,
     "e2_available": 314,
     "e2_first_target": 30,
@@ -17,10 +17,10 @@
     "symbols": {
       "BTCUSDT": {
         "h4": "BULLISH",
-        "h1": "LONG",
-        "phase": "RETEST_EXPIRED",
-        "side": "LONG",
-        "level": 81369.86
+        "h1": "SHORT",
+        "phase": "WAITING_RETEST",
+        "side": "SHORT",
+        "level": 81309.68
       },
       "ETHUSDT": {
         "h4": "BULLISH",
@@ -182,12 +182,12 @@
   },
   "e2_v2_forward": {
     "rule": "ACTIVITY_CONTINUATION_V2",
-    "future": 865,
-    "qualified": 117,
-    "available": 115,
+    "future": 870,
+    "qualified": 120,
+    "available": 117,
     "target": 30,
     "mapping_fail": 0,
-    "causal_fail": 95,
+    "causal_fail": 97,
     "returns_blinded": true,
     "real_money_authorized": false
   }
