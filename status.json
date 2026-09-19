@@ -1,15 +1,15 @@
 {
   "schema": "chao-status-public-v1",
-  "generated_at": "2026-09-19T06:27:39.992141+00:00",
+  "generated_at": "2026-09-19T06:28:44.931872+00:00",
   "system_health": "HEALTHY",
   "error_count": 0,
   "meme": {
     "paper_closed": 295,
     "p4_available": 45,
     "p4_target": 150,
-    "e2_future": 343,
-    "e2_qualified": 104,
-    "e2_available": 102,
+    "e2_future": 344,
+    "e2_qualified": 105,
+    "e2_available": 103,
     "e2_first_target": 30,
     "returns_blinded": true
   },
@@ -32,7 +32,7 @@
       "SOLUSDT": {
         "h4": "BULLISH",
         "h1": "SHORT",
-        "phase": "ENTRY_READY",
+        "phase": "WAITING_RETEST",
         "side": "SHORT",
         "level": 112.0
       },
