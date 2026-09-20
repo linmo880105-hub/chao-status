@@ -1,6 +1,6 @@
 {
   "schema": "chao-status-public-v1",
-  "generated_at": "2026-09-20T01:36:55.221508+00:00",
+  "generated_at": "2026-09-20T01:37:56.511568+00:00",
   "system_health": "HEALTHY",
   "error_count": 0,
   "meme": {
@@ -18,21 +18,21 @@
       "BTCUSDT": {
         "h4": "BULLISH",
         "h1": "SHORT",
-        "phase": "WAIT_5M_TRIGGER",
+        "phase": "ENTRY_READY",
         "side": "SHORT",
         "level": 81208.83
       },
       "ETHUSDT": {
         "h4": "BULLISH",
         "h1": "SHORT",
-        "phase": "WAIT_5M_TRIGGER",
+        "phase": "ENTRY_READY",
         "side": "SHORT",
         "level": 2626.54
       },
       "SOLUSDT": {
         "h4": "BULLISH",
         "h1": "SHORT",
-        "phase": "WAIT_5M_TRIGGER",
+        "phase": "ENTRY_READY",
         "side": "SHORT",
         "level": 110.62
       },
