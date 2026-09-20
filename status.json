@@ -1,15 +1,15 @@
 {
   "schema": "chao-status-public-v1",
-  "generated_at": "2026-09-20T01:16:48.150029+00:00",
+  "generated_at": "2026-09-20T01:17:48.323745+00:00",
   "system_health": "HEALTHY",
   "error_count": 0,
   "meme": {
     "paper_closed": 640,
     "p4_available": 288,
     "p4_target": 150,
-    "e2_future": 1464,
-    "e2_qualified": 379,
-    "e2_available": 365,
+    "e2_future": 1465,
+    "e2_qualified": 380,
+    "e2_available": 366,
     "e2_first_target": 30,
     "returns_blinded": true
   },
@@ -18,23 +18,23 @@
       "BTCUSDT": {
         "h4": "BULLISH",
         "h1": "SHORT",
-        "phase": "RETEST_EXPIRED",
+        "phase": "WAITING_RETEST",
         "side": "SHORT",
-        "level": 81309.68
+        "level": 81208.83
       },
       "ETHUSDT": {
         "h4": "BULLISH",
         "h1": "SHORT",
-        "phase": "RETEST_FAILED",
-        "side": "LONG",
-        "level": 2643.5
+        "phase": "WAITING_RETEST",
+        "side": "SHORT",
+        "level": 2626.54
       },
       "SOLUSDT": {
         "h4": "BULLISH",
         "h1": "SHORT",
-        "phase": "TRIGGER_EXPIRED",
+        "phase": "WAITING_RETEST",
         "side": "SHORT",
-        "level": 110.76
+        "level": 110.62
       },
       "BNBUSDT": {
         "h4": "BULLISH",
@@ -182,12 +182,12 @@
   },
   "e2_v2_forward": {
     "rule": "ACTIVITY_CONTINUATION_V2",
-    "future": 1118,
+    "future": 1123,
     "qualified": 144,
     "available": 141,
     "target": 30,
     "mapping_fail": 0,
-    "causal_fail": 144,
+    "causal_fail": 145,
     "returns_blinded": true,
     "real_money_authorized": false
   }
