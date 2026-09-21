@@ -1,13 +1,13 @@
 {
   "schema": "chao-e2-v2-forward-status-v1",
-  "generated_at_utc": "2026-09-21T13:04:58.314715+00:00",
+  "generated_at_utc": "2026-09-21T13:10:01.617778+00:00",
   "rule": "ACTIVITY_CONTINUATION_V2",
-  "future_t20_events": 1561,
+  "future_t20_events": 1562,
   "qualified": 150,
   "t26_available": 147,
   "target": 30,
   "mapping_fail": 0,
-  "causal_fail": 542,
+  "causal_fail": 543,
   "returns_blinded": true,
   "outer_holdout_read": false,
   "real_money_authorized": false
