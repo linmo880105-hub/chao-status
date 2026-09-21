@@ -1,10 +1,10 @@
 {
   "schema": "chao-status-public-v1",
-  "generated_at": "2026-09-21T14:35:34.397806+00:00",
+  "generated_at": "2026-09-21T14:36:34.518826+00:00",
   "system_health": "HEALTHY",
   "error_count": 0,
   "meme": {
-    "paper_closed": 773,
+    "paper_closed": 774,
     "p4_available": 300,
     "p4_target": 150,
     "e2_future": 1502,
@@ -32,7 +32,7 @@
       "SOLUSDT": {
         "h4": "MIXED",
         "h1": "LONG",
-        "phase": "WAIT_5M_TRIGGER",
+        "phase": "TRIGGER_EXPIRED",
         "side": "LONG",
         "level": 117.13
       },
