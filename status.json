@@ -1,6 +1,6 @@
 {
   "schema": "chao-status-public-v1",
-  "generated_at": "2026-09-21T02:39:17.132248+00:00",
+  "generated_at": "2026-09-21T02:44:18.102999+00:00",
   "system_health": "HEALTHY",
   "error_count": 0,
   "meme": {
@@ -182,12 +182,12 @@
   },
   "e2_v2_forward": {
     "rule": "ACTIVITY_CONTINUATION_V2",
-    "future": 1439,
+    "future": 1440,
     "qualified": 150,
     "available": 147,
     "target": 30,
     "mapping_fail": 0,
-    "causal_fail": 420,
+    "causal_fail": 421,
     "returns_blinded": true,
     "real_money_authorized": false
   }
