@@ -1,6 +1,6 @@
 {
   "schema": "chao-status-public-v1",
-  "generated_at": "2026-09-22T13:02:06.239875+00:00",
+  "generated_at": "2026-09-22T13:04:06.579889+00:00",
   "system_health": "HEALTHY",
   "error_count": 0,
   "meme": {
@@ -25,7 +25,7 @@
       "ETHUSDT": {
         "h4": "BULLISH",
         "h1": "LONG",
-        "phase": "WAITING_RETEST",
+        "phase": "WAIT_5M_TRIGGER",
         "side": "LONG",
         "level": 2748.15
       },
@@ -38,10 +38,10 @@
       },
       "BNBUSDT": {
         "h4": "BULLISH",
-        "h1": "SHORT",
-        "phase": "TRIGGER_EXPIRED",
-        "side": "SHORT",
-        "level": 785.68
+        "h1": "LONG",
+        "phase": "WAITING_RETEST",
+        "side": "LONG",
+        "level": 788.13
       }
     },
     "total_samples": 35,
