@@ -1,6 +1,6 @@
 {
   "schema": "chao-status-public-v1",
-  "generated_at": "2026-09-24T09:00:57.804226+00:00",
+  "generated_at": "2026-09-24T09:02:58.822230+00:00",
   "system_health": "HEALTHY",
   "error_count": 0,
   "meme": {
@@ -17,10 +17,10 @@
     "symbols": {
       "BTCUSDT": {
         "h4": "MIXED",
-        "h1": "LONG",
-        "phase": "RETEST_FAILED",
-        "side": "LONG",
-        "level": 84225.07
+        "h1": "SHORT",
+        "phase": "WAITING_RETEST",
+        "side": "SHORT",
+        "level": 83950.0
       },
       "ETHUSDT": {
         "h4": "BEARISH",
