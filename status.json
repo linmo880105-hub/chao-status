@@ -1,6 +1,6 @@
 {
   "schema": "chao-status-public-v1",
-  "generated_at": "2026-09-24T16:27:10.649913+00:00",
+  "generated_at": "2026-09-24T16:32:13.581967+00:00",
   "system_health": "HEALTHY",
   "error_count": 0,
   "meme": {
@@ -32,9 +32,9 @@
       "SOLUSDT": {
         "h4": "BEARISH",
         "h1": "LONG",
-        "phase": "RETEST_EXPIRED",
-        "side": "SHORT",
-        "level": 114.5
+        "phase": "WAITING_RETEST",
+        "side": "LONG",
+        "level": 116.63
       },
       "BNBUSDT": {
         "h4": "MIXED",
@@ -182,7 +182,7 @@
   },
   "e2_v2_forward": {
     "rule": "ACTIVITY_CONTINUATION_V2",
-    "future": 2435,
+    "future": 2436,
     "qualified": 171,
     "available": 168,
     "target": 30,
