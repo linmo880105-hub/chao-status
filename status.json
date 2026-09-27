@@ -1,6 +1,6 @@
 {
   "schema": "chao-status-public-v1",
-  "generated_at": "2026-09-27T18:42:34.678878+00:00",
+  "generated_at": "2026-09-27T18:47:38.717827+00:00",
   "system_health": "HEALTHY",
   "error_count": 0,
   "meme": {
@@ -18,7 +18,7 @@
       "BTCUSDT": {
         "h4": "MIXED",
         "h1": "LONG",
-        "phase": "WAITING_RETEST",
+        "phase": "WAIT_5M_TRIGGER",
         "side": "LONG",
         "level": 84687.32
       },
@@ -182,9 +182,9 @@
   },
   "e2_v2_forward": {
     "rule": "ACTIVITY_CONTINUATION_V2",
-    "future": 3312,
-    "qualified": 325,
-    "available": 313,
+    "future": 3313,
+    "qualified": 326,
+    "available": 314,
     "target": 30,
     "mapping_fail": 0,
     "causal_fail": 1306,
