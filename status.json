@@ -1,6 +1,6 @@
 {
   "schema": "chao-status-public-v1",
-  "generated_at": "2026-09-28T16:01:20.752050+00:00",
+  "generated_at": "2026-09-28T16:06:25.663927+00:00",
   "system_health": "HEALTHY",
   "error_count": 0,
   "meme": {
@@ -32,7 +32,7 @@
       "SOLUSDT": {
         "h4": "BULLISH",
         "h1": "SHORT",
-        "phase": "WAIT_5M_TRIGGER",
+        "phase": "TRIGGER_EXPIRED",
         "side": "SHORT",
         "level": 118.38
       },
@@ -182,9 +182,9 @@
   },
   "e2_v2_forward": {
     "rule": "ACTIVITY_CONTINUATION_V2",
-    "future": 3563,
-    "qualified": 363,
-    "available": 349,
+    "future": 3564,
+    "qualified": 364,
+    "available": 350,
     "target": 30,
     "mapping_fail": 0,
     "causal_fail": 1306,
