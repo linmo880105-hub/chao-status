@@ -1,6 +1,6 @@
 {
   "schema": "chao-status-public-v1",
-  "generated_at": "2026-09-30T06:57:48.674819+00:00",
+  "generated_at": "2026-09-30T07:02:52.650113+00:00",
   "system_health": "HEALTHY",
   "error_count": 0,
   "meme": {
@@ -18,30 +18,30 @@
       "BTCUSDT": {
         "h4": "BULLISH",
         "h1": "SHORT",
-        "phase": "WAITING_RETEST",
+        "phase": "WAIT_5M_TRIGGER",
         "side": "SHORT",
         "level": 83188.01
       },
       "ETHUSDT": {
         "h4": "BULLISH",
-        "h1": "LONG",
-        "phase": "RETEST_FAILED",
-        "side": "LONG",
-        "level": 2676.6
+        "h1": "SHORT",
+        "phase": "WAITING_RETEST",
+        "side": "SHORT",
+        "level": 2667.03
       },
       "SOLUSDT": {
         "h4": "BULLISH",
-        "h1": "LONG",
-        "phase": "RETEST_EXPIRED",
-        "side": "LONG",
-        "level": 120.1
+        "h1": "SHORT",
+        "phase": "WAITING_RETEST",
+        "side": "SHORT",
+        "level": 118.5
       },
       "BNBUSDT": {
         "h4": "BEARISH",
-        "h1": "LONG",
-        "phase": "RETEST_FAILED",
-        "side": "LONG",
-        "level": 764.25
+        "h1": "SHORT",
+        "phase": "WAITING_RETEST",
+        "side": "SHORT",
+        "level": 762.16
       }
     },
     "total_samples": 86,
@@ -182,9 +182,9 @@
   },
   "e2_v2_forward": {
     "rule": "ACTIVITY_CONTINUATION_V2",
-    "future": 3956,
-    "qualified": 417,
-    "available": 399,
+    "future": 3957,
+    "qualified": 418,
+    "available": 400,
     "target": 30,
     "mapping_fail": 0,
     "causal_fail": 1319,
