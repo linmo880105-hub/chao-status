@@ -1,6 +1,6 @@
 {
   "schema": "chao-status-public-v1",
-  "generated_at": "2026-10-01T17:34:03.903957+00:00",
+  "generated_at": "2026-10-01T18:04:31.673679+00:00",
   "system_health": "WARNING",
   "error_count": 0,
   "meme": {
@@ -31,17 +31,17 @@
       },
       "SOLUSDT": {
         "h4": "BEARISH",
-        "h1": "SHORT",
-        "phase": "RETEST_FAILED",
-        "side": "SHORT",
-        "level": 117.52
+        "h1": "LONG",
+        "phase": "WAITING_RETEST",
+        "side": "LONG",
+        "level": 118.03
       },
       "BNBUSDT": {
         "h4": "MIXED",
-        "h1": "SHORT",
-        "phase": "RETEST_FAILED",
-        "side": "SHORT",
-        "level": 769.24
+        "h1": "LONG",
+        "phase": "WAITING_RETEST",
+        "side": "LONG",
+        "level": 771.0
       }
     },
     "total_samples": 93,
