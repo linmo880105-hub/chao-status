@@ -1,7 +1,7 @@
 {
   "schema": "chao-status-public-v1",
-  "generated_at": "2026-10-01T03:01:27.694001+00:00",
-  "system_health": "HEALTHY",
+  "generated_at": "2026-10-01T03:03:31.558746+00:00",
+  "system_health": "WARNING",
   "error_count": 0,
   "meme": {
     "paper_closed": 1033,
