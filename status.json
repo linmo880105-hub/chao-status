@@ -1,6 +1,6 @@
 {
   "schema": "chao-status-public-v1",
-  "generated_at": "2026-10-02T14:43:39.615442+00:00",
+  "generated_at": "2026-10-02T15:02:57.653663+00:00",
   "system_health": "WARNING",
   "error_count": 0,
   "meme": {
@@ -17,24 +17,24 @@
     "symbols": {
       "BTCUSDT": {
         "h4": "BULLISH",
-        "h1": "LONG",
-        "phase": "TRIGGER_EXPIRED",
-        "side": "LONG",
-        "level": 86500.0
+        "h1": "SHORT",
+        "phase": "WAITING_RETEST",
+        "side": "SHORT",
+        "level": 86308.0
       },
       "ETHUSDT": {
         "h4": "MIXED",
-        "h1": "LONG",
-        "phase": "TRIGGER_EXPIRED",
-        "side": "LONG",
-        "level": 2752.0
+        "h1": "SHORT",
+        "phase": "WAITING_RETEST",
+        "side": "SHORT",
+        "level": 2738.03
       },
       "SOLUSDT": {
         "h4": "BEARISH",
-        "h1": "LONG",
-        "phase": "RETEST_FAILED",
-        "side": "LONG",
-        "level": 122.47
+        "h1": "SHORT",
+        "phase": "WAITING_RETEST",
+        "side": "SHORT",
+        "level": 121.61
       },
       "BNBUSDT": {
         "h4": "MIXED",
