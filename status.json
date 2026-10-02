@@ -1,6 +1,6 @@
 {
   "schema": "chao-status-public-v1",
-  "generated_at": "2026-10-02T07:57:03.645130+00:00",
+  "generated_at": "2026-10-02T08:03:10.595812+00:00",
   "system_health": "WARNING",
   "error_count": 0,
   "meme": {
@@ -25,9 +25,9 @@
       "ETHUSDT": {
         "h4": "MIXED",
         "h1": "LONG",
-        "phase": "TRIGGER_EXPIRED",
+        "phase": "WAITING_RETEST",
         "side": "LONG",
-        "level": 2728.0
+        "level": 2733.45
       },
       "SOLUSDT": {
         "h4": "BEARISH",
