@@ -1,6 +1,6 @@
 {
   "schema": "chao-status-public-v1",
-  "generated_at": "2026-10-03T14:11:40.688407+00:00",
+  "generated_at": "2026-10-03T14:17:45.813070+00:00",
   "system_health": "WARNING",
   "error_count": 0,
   "meme": {
@@ -32,9 +32,9 @@
       "SOLUSDT": {
         "h4": "BULLISH",
         "h1": "SHORT",
-        "phase": "TRIGGER_EXPIRED",
+        "phase": "WAITING_RETEST",
         "side": "SHORT",
-        "level": 119.0
+        "level": 119.25
       },
       "BNBUSDT": {
         "h4": "MIXED",
