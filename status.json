@@ -1,6 +1,6 @@
 {
   "schema": "chao-status-public-v1",
-  "generated_at": "2026-10-04T14:48:02.788191+00:00",
+  "generated_at": "2026-10-04T15:03:16.855918+00:00",
   "system_health": "WARNING",
   "error_count": 0,
   "meme": {
@@ -39,7 +39,7 @@
       "BNBUSDT": {
         "h4": "BULLISH",
         "h1": "SHORT",
-        "phase": "WAITING_RETEST",
+        "phase": "WAIT_5M_TRIGGER",
         "side": "SHORT",
         "level": 787.16
       }
