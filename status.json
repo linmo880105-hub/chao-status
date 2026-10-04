@@ -1,6 +1,6 @@
 {
   "schema": "chao-status-public-v1",
-  "generated_at": "2026-10-04T22:19:34.752444+00:00",
+  "generated_at": "2026-10-04T22:34:45.740827+00:00",
   "system_health": "WARNING",
   "error_count": 0,
   "meme": {
@@ -18,7 +18,7 @@
       "BTCUSDT": {
         "h4": "MIXED",
         "h1": "LONG",
-        "phase": "WAITING_RETEST",
+        "phase": "RETEST_EXPIRED",
         "side": "LONG",
         "level": 85574.01
       },
