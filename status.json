@@ -1,6 +1,6 @@
 {
   "schema": "chao-status-public-v1",
-  "generated_at": "2026-10-04T08:56:31.615051+00:00",
+  "generated_at": "2026-10-04T08:59:35.972954+00:00",
   "system_health": "WARNING",
   "error_count": 0,
   "meme": {
@@ -45,8 +45,8 @@
       }
     },
     "total_samples": 112,
-    "complete_samples": 110,
-    "tracking_samples": 2,
+    "complete_samples": 111,
+    "tracking_samples": 1,
     "target": 20
   },
   "safety": {
