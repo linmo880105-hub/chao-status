@@ -1,6 +1,6 @@
 {
   "schema": "chao-status-public-v1",
-  "generated_at": "2026-10-04T10:32:02.839917+00:00",
+  "generated_at": "2026-10-04T10:52:22.983189+00:00",
   "system_health": "WARNING",
   "error_count": 0,
   "meme": {
@@ -32,7 +32,7 @@
       "SOLUSDT": {
         "h4": "BULLISH",
         "h1": "LONG",
-        "phase": "WAIT_5M_TRIGGER",
+        "phase": "TRIGGER_EXPIRED",
         "side": "LONG",
         "level": 121.26
       },
